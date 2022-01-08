@@ -165,6 +165,7 @@ div#sea {
 .icons {
   position: absolute;
   left: 10px;
+  text-align:center;
   /*top:50%;
   width: 100%;*/
   height: auto;
@@ -178,6 +179,7 @@ div#sea {
   color: #e5e5e5;
   text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
   font-size: 50px;
+  text-align:center;
   display: inline-block;
   opacity: 0;
   transition: transform 0.5s ease-in, opacity 0.7s;
@@ -426,10 +428,12 @@ div#sea {
 @media (min-width: 1000px) {
   .icons {
     left: 30px;
+    text-align:center;
   }
 
   .icons .row span {
     font-size: 56px;
+    text-align:center;
   }
 
   #people {
